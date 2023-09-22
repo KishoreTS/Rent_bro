@@ -19,8 +19,6 @@ const Pages = () => {
           <Route exact path='/about' component={About} />
           <Route exact path='/services' component={Services} />
           <Route exact path='/blog' component={Blog} />
-          
-          
         </Switch>
         <Footer />
       </Router>
